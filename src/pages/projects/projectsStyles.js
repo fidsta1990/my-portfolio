@@ -61,6 +61,8 @@ export const Catalogue = styled.article`
   ${shadows.linearPrime};
   background: ${setColor.mainWhite};
   ${setFlex({ x: "space-between", y: "flex-start", d: "column" })};
+  color: ${setColor.darkGrey};
+  font-weight: 500;
 
   img {
     border-top-left-radius: 1.6rem;
@@ -79,6 +81,7 @@ export const Catalogue = styled.article`
   p {
     padding-left: 1.6rem;
     margin: 1.6rem 0rem;
+    color: ${setColor.darkGrey};
   }
 
   article {
