@@ -44,9 +44,7 @@ const Form = () => {
           required
         ></textarea>
       </Styling.FormGroup>
-      <Styling.FormBtn type="submit" >
-        SUBMIT
-      </Styling.FormBtn>
+      <Styling.FormBtn type="submit">SUBMIT</Styling.FormBtn>
     </Styling.ContactForm>
   );
 };
