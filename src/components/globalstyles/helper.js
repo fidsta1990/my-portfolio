@@ -3,10 +3,12 @@ export const setColor = {
   secondary: "#63bce6",
   mainWhite: "#fff",
   mainGrey: "#ececec",
+  darkGrey: "#595959",
   mainDark: "#232c64",
   linearLight:
     "linear-gradient(72deg, rgba(58,203,184,1) 0%, rgba(99,188,230,1) 100%);",
   linearDark: "linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6))",
+  linearPrime: "linear-gradient(rgb(58, 203, 184,.4), rgb(58, 203, 184,.4))",
 };
 
 export const setFont = {
@@ -40,6 +42,7 @@ export const shadows = {
   light: `box-shadow: 0px 0px 5px rgba(255,255,255,.4)`,
   dark: `box-shadow: 0px 0px 5px rgba(0,0,0,.7)`,
   darker: `box-shadow: 0px 0px 10px rgba(0,0,0,.7)`,
+  linearPrime: " box-shadow: 0px 0px 10px  rgb(58, 203, 184, 0.4)",
 };
 
 export const border = ({ size = "2", color = "#000" } = {}) => {

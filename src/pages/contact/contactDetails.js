@@ -4,7 +4,7 @@ const contactInfo = [
   {
     icon:<FaRegEnvelope/>,
     name: "Email:",
-    text: "fidel@gmail.com"
+    text: "fidellcollin@gmail.com"
   },
   {
     icon:<FaRegAddressCard/>,

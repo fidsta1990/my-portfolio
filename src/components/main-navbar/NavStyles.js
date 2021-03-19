@@ -15,6 +15,7 @@ export const Nav = styled.nav`
   z-index: 10;
   width: 100%;
 
+
   .links {
     height: 0;
     overflow: hidden;

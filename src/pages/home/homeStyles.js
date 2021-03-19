@@ -14,8 +14,7 @@ export const HomeWrap = styled(Wrapper)`
   ${shadows.darker};
   position: relative;
 
-  /* @media (min-width: ${sizes.m}) {
-  } */
+
 
   .mouse {
     position: absolute;
@@ -61,7 +60,7 @@ export const HomeContain = styled(Container)`
     }
   }
 
-  @media (max-width: 812px) and (max-height: 375px){
+  @media (max-width: 812px) and (max-height: 375px) {
     h1 {
       font-size: 2.4rem;
     }
@@ -92,9 +91,7 @@ export const BtnContain = styled.div`
   max-width: 300px;
   margin: 0rem auto;
   margin-top: 2.4rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  ${setFlex({ x: "space-between", y: "center", d: "row" })}
 
   /* Mobile */
   @media (max-height: ${sizes.xs}) {

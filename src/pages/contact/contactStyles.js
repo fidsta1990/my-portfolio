@@ -3,18 +3,17 @@ import { Container } from "../../components/Wrapper";
 import {
   setColor,
   setFlex,
-  setGrid,
+  transition,
   sizes,
-  setFont,
   shadows,
   letterSpacing,
 } from "../../components/globalstyles/helper";
 import { Title } from "../../components/Title";
 import { Wrapper } from "../../components/Wrapper";
-import img from '../../img/bgMain.jpg'
+import img from "../../img/bgMain.jpg";
 
 export const ContactWrapper = styled(Wrapper)`
- background: ${setColor.linearDark}, url(${img}) center/cover fixed no-repeat;
+  background: ${setColor.linearDark}, url(${img}) center/cover fixed no-repeat;
   ${shadows.darker};
 `;
 
@@ -25,7 +24,6 @@ export const ContactContain = styled(Container)`
 
 export const ContactTitle = styled(Title)`
   margin-top: 5.6rem;
-
 
   @media (max-width: ${sizes.xss}) {
     h2 {
@@ -41,6 +39,7 @@ export const ContactContext = styled.article`
   justify-content: space-evenly;
   column-gap: 1.6rem;
   margin: 3.2rem 1.6rem;
+  margin-top: 5.6rem;
   min-height: 40vh;
 
   @media (min-width: 900px) {
@@ -55,9 +54,9 @@ export const ContactDetails = styled.article`
   .details {
     margin-top: 5.4rem;
 
-   h4{
-     text-align: left;
-   }
+    h4 {
+      text-align: left;
+    }
 
     p {
       color: ${setColor.mainWhite};
@@ -73,9 +72,35 @@ export const ContactDetails = styled.article`
     }
   }
 
+
   @media (min-width: 1060px) {
     .details {
       margin-top: 1.6rem;
     }
+  }
+`;
+
+export const SocialWrap = styled.a`
+  ${setFlex()}
+  margin-top: 3.2rem;
+ 
+
+  @media (min-width: ${sizes.s}) {
+    ${setFlex({ x: "flex-start" })}
+  }
+`;
+
+export const Social = styled.a`
+  font-size: 3.2rem;
+  margin: 0rem 1.6rem;
+  color: ${setColor.mainWhite};
+  ${transition()};
+
+  &:hover {
+    color: ${setColor.primary};
+  }
+
+  @media (min-width: ${sizes.s}) {
+    margin-left: 0rem;
   }
 `;

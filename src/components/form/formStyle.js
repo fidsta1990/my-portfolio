@@ -1,62 +1,61 @@
 import styled from "styled-components";
+import {
+  setColor,
+  transition,
+  setFont,
+  sizes,
+  shadows,
+} from "../../components/globalstyles/helper";
+import { BtnPrimary } from "../../components/Buttons";
 
 export const ContactForm = styled.form`
   padding: 1.6rem;
   width: 100%;
   z-index: 5;
 
-  .form-group {
-    width: 100%;
-    margin-bottom: 0.8rem;
-  }
-
   .form-control {
     width: 100%;
     background: transparent;
     border: 0;
-    border-bottom: 2px solid grey;
+    border-bottom: 2px solid ${setColor.secondary};
     font-size: 2.4rem;
-    transition: all 0.2s ease-in;
-    color: #84b5e5;
+    ${transition()};
+    color: ${setColor.primary};
+    ${setFont.main};
 
     &::placeholder {
-      color: #fff;
+      color: ${setColor.mainWhite};
     }
 
     &:focus {
       outline: 0;
       padding-bottom: 0.8rem;
-      border-bottom-color: #84b5e5;
+      border-bottom-color: ${setColor.primary};
     }
   }
 
-  .form-btn {
-    cursor: pointer;
-    width: 100%;
-    padding: 1.6rem 0;
-    border: 0;
-    font-size: 1.6rem;
-    border-radius: 0.8rem;
-    letter-spacing: 3px;
-    font-weight: bold;
-    background: black;
-    color: #fff;
-    box-shadow: 0 0 5px #fff;
-    transition: all 0.2s ease;
-
-    &:hover {
-      background: linear-gradient(
-        200deg,
-        #84b5e5,
-        #63bce6,
-        #3fc3de,
-        #29c8cf,
-        #3acbb8
-      );
+  @media (max-width: ${sizes.s}) {
+    .form-control {
+      &:focus {
+        outline: 0;
+        padding-bottom: 0;
+      }
     }
+  }
+`;
 
-    &:active {
-      transform: scale(0.95);
-    }
+export const FormGroup = styled.div`
+  width: 100%;
+  margin-bottom: 1.6rem;
+`;
+
+export const FormBtn = styled(BtnPrimary)`
+  color: ${setColor.mainWhite};
+  width: 100%;
+  margin: 0rem;
+  margin-top: 1.6rem;
+
+  &:hover {
+    ${shadows.light};
   }
 `;

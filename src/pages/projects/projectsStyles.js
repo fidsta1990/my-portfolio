@@ -5,6 +5,7 @@ import {
   setFlex,
   sizes,
   shadows,
+  letterSpacing,
 } from "../../components/globalstyles/helper";
 import { Title } from "../../components/Title";
 import { BtnPrimary } from "../../components/Buttons";
@@ -57,14 +58,14 @@ export const Catalogue = styled.article`
   border: 0;
   margin: 1.6rem auto;
   border-radius: 1.6rem;
-  ${shadows.darker};
+  ${shadows.linearPrime};
   background: ${setColor.mainWhite};
   ${setFlex({ x: "space-between", y: "flex-start", d: "column" })};
 
   img {
     border-top-left-radius: 1.6rem;
     border-top-right-radius: 1.6rem;
-    ${shadows.darker};
+    ${shadows.linearPrime};
   }
 
   p {
@@ -120,7 +121,7 @@ export const ProjectBtn = styled(BtnPrimary)`
   padding: 0;
 
   font-weight: bold;
-  letter-spacing: 3px;
+  letter-spacing: ${letterSpacing("3")};
   border-bottom-left-radius: 1.6rem;
   border-bottom-right-radius: 1.6rem;
   margin: 0;

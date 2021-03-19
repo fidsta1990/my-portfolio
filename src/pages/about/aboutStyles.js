@@ -50,8 +50,8 @@ export const AboutBio = styled.article`
 
   p {
     line-height: 2;
-    font-weight: 400;
-    color: ${setColor.mainDark};
+    font-weight: 600;
+    color: ${setColor.darkGrey};
     margin: 3.2rem 0rem 1.6rem 0rem;
   }
 
@@ -76,9 +76,8 @@ export const AboutSkill = styled.article`
   }
 
   .skill_wrapper {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+
+    ${setFlex({x: "flex-start", y: "center", d: "row"})}
     flex-wrap: wrap;
     width: 100%;
     height: 350px;

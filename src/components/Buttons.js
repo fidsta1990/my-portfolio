@@ -16,7 +16,7 @@ export const BtnOutline = styled.button`
   width: 188px;
   height: 50px;
   background: transparent;
-  font-size: 2.4rem;
+  font-size: 2.2rem;
   cursor: pointer;
   ${transition()};
   border-radius: 0.5rem;
@@ -45,7 +45,7 @@ export const BtnPrimary = styled.button`
   width: 178px;
   height: 40px;
   background: ${setColor.secondary};
-  font-size: 2.4rem;
+  font-size: 2.2rem;
   cursor: pointer;
   ${transition()};
   border-radius: 0.5rem;
