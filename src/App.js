@@ -19,8 +19,8 @@ function App() {
           <Projects />
           <Contact />
         </Route>
+      <Route path="*" component={Error} />
       </Switch>
-      <Route exact path="*" component={Error} />
     </Router>
   );
 }
