@@ -1,6 +1,7 @@
 import bayresort from "../../img/bayresort.png";
 import flicker from "../../img/flicker.png";
 import fitRep from "../../img/fitRep.png";
+import soon from "../../img/soon.png";
 
 export const portfolio = [
   {
@@ -12,6 +13,7 @@ export const portfolio = [
     name: "BayResort",
     info: "A travel resort website to book rooms and events.",
     url: `https://bayresort.netlify.app/`,
+    codeUrl: `https://github.com/fidsta1990/bayresort`,
   },
   {
     id: 2,
@@ -22,6 +24,7 @@ export const portfolio = [
     name: "FlixScraper",
     info: "A movie library created using OMDB's api to showcase movies.",
     url: `https://flickermove.netlify.app/`,
+    codeUrl: `https://github.com/fidsta1990/flick-scraper`,
   },
   {
     id: 3,
@@ -30,18 +33,20 @@ export const portfolio = [
     langTwo: "sass",
     langThree: "javascript",
     name: "FitRep",
-    info: "Fitrep is a gym which provides hands on support to getting clients in to shape.",
+    info:
+      "Fitrep is a gym which provides hands on support to getting clients in to shape.",
     url: `https://fitrep.netlify.app/`,
+    codeUrl: `https://github.com/fidsta1990/fit-rep`,
   },
   {
     id: 4,
-    image:
-      "https://images.unsplash.com/photo-1547891654-e66ed7ebb968?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+    image: `${soon}`,
     langOne: "html",
     langTwo: "css",
     langThree: "javascript",
-    name: "project d",
-    info: "Lorem ipsum dolor sit amet.",
-    url: ``,
+    name: "coming soon",
+    info: "coming soon",
+    url: `N/A`,
+    codeUrl: ``,
   },
 ];

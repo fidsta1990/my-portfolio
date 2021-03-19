@@ -25,6 +25,7 @@ const Projects = () => {
               name,
               info,
               url,
+              codeUrl,
             } = project;
 
             return (
@@ -32,6 +33,7 @@ const Projects = () => {
                 <img src={image} alt={name} />
                 <p>
                   <span className="sub__heading">Site:</span> {name}
+                  <a href={codeUrl} target="_blank" rel="noreferrer" className="code">Code</a>
                 </p>
                 <article>
                   <div className="languages">

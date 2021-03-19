@@ -68,6 +68,14 @@ export const Catalogue = styled.article`
     ${shadows.linearPrime};
   }
 
+  .code {
+    margin-left: 0.8rem;
+    background: ${setColor.primary};
+    color: ${setColor.mainWhite};
+    padding: 0.8rem;
+    border-radius: 0.8rem;
+  }
+
   p {
     padding-left: 1.6rem;
     margin: 1.6rem 0rem;
