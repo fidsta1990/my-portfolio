@@ -63,6 +63,10 @@ export const AboutBio = styled.article`
     h4 {
       margin-bottom: 2.4rem;
     }
+
+    p {
+      font-size: 1.2rem;
+    }
   }
 `;
 
@@ -76,8 +80,7 @@ export const AboutSkill = styled.article`
   }
 
   .skill_wrapper {
-
-    ${setFlex({x: "flex-start", y: "center", d: "row"})}
+    ${setFlex({ x: "flex-start", y: "center", d: "row" })}
     flex-wrap: wrap;
     width: 100%;
     height: 350px;
