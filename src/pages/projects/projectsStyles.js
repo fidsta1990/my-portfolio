@@ -64,6 +64,7 @@ export const Catalogue = styled.article`
   img {
     border-top-left-radius: 1.6rem;
     border-top-right-radius: 1.6rem;
+    ${shadows.darker};
   }
 
   p {
