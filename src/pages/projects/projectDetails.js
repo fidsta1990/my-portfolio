@@ -10,7 +10,7 @@ export const portfolio = [
     langTwo: "styled-components",
     langThree: "aos",
     name: "BayResort",
-    info: "Lorem ipsum dolor sit amet.",
+    info: "A travel resort website to book rooms and events.",
     url: `https://bayresort.netlify.app/`,
   },
   {
@@ -20,7 +20,7 @@ export const portfolio = [
     langTwo: "sass",
     langThree: "",
     name: "FlixScraper",
-    info: "Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.",
+    info: "A movie library created using OMDB's api to showcase movies.",
     url: `https://flickermove.netlify.app/`,
   },
   {
@@ -30,7 +30,7 @@ export const portfolio = [
     langTwo: "sass",
     langThree: "javascript",
     name: "FitRep",
-    info: "Lorem ipsum dolor sit amet.nadhjsfga",
+    info: "Fitrep is a gym which provides hands on support to getting clients in to shape.",
     url: `https://fitrep.netlify.app/`,
   },
   {
