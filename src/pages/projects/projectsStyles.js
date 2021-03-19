@@ -117,11 +117,15 @@ export const Catalogue = styled.article`
 export const ProjectBtn = styled(BtnPrimary)`
   width: 100%;
   padding: 0;
-  color: #fff;
+
   font-weight: bold;
   letter-spacing: 3px;
   border-bottom-left-radius: 1.6rem;
   border-bottom-right-radius: 1.6rem;
   margin: 0;
   display: grid;
+
+  a {
+    color: ${setColor.mainWhite};
+  }
 `;

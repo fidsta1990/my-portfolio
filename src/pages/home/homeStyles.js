@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { Wrapper, Container } from "../../components/Wrapper";
-import img from "../../img/pexels-dominika-roseclay-2112008.jpg";
+import img from "../../img/bgMain.jpg";
 import {
   setColor,
   setFlex,

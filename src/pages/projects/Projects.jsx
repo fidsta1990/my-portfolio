@@ -24,6 +24,7 @@ const Projects = () => {
               langThree,
               name,
               info,
+              url,
             } = project;
 
             return (
@@ -44,7 +45,11 @@ const Projects = () => {
                   <span className="sub__heading">Info: </span>
                   {info}
                 </p>
-                <Styling.ProjectBtn>see live</Styling.ProjectBtn>
+                <Styling.ProjectBtn>
+                  <a href={url} target="_blank" rel="noreferrer">
+                    see live
+                  </a>
+                </Styling.ProjectBtn>
               </Styling.Catalogue>
             );
           })}
