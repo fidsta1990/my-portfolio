@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import {
   FooterLogo,
   FooterSocial,
@@ -7,15 +7,10 @@ import {
 } from "./footerStyle";
 import { social } from "../main-navbar/details";
 import { animateScroll as scroll, Link } from "react-scroll";
-import { Container } from "../../components/Wrapper";
+
 
 const Footer = () => {
-  const [click, setClick] = useState(false);
-  // toggle menu bar
-  const handleClick = () => {
-    const toggle = !click ? setClick(true) : setClick(false);
-    return toggle;
-  };
+
 
   // Scroll To Top
   const toggleHome = () => scroll.scrollToTop();

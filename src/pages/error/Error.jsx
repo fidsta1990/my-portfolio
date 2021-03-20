@@ -10,7 +10,7 @@ const Error = () => {
     <Styling.ErrorWapper>
       <Styling.ErrorContain>
         <h2>OOPS, NO SUCH PAGE EXISTS.</h2>
-        <img src={errorImg} alt="error image" />
+        <img src={errorImg} alt="error capture" />
         <BtnPrimary>
           <Link to="/" style={{color: `${setColor.mainWhite}`}}>Back Home</Link>
         </BtnPrimary>

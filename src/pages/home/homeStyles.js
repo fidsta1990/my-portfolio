@@ -14,11 +14,9 @@ export const HomeWrap = styled(Wrapper)`
   ${shadows.darker};
   position: relative;
 
-
-
   .mouse {
     position: absolute;
-    bottom: 10px;
+    bottom: 30px;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 3.2rem;
