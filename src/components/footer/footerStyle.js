@@ -3,7 +3,7 @@ import {
   setColor,
   setFlex,
   sizes,
-  transition,
+  setFont,
 } from "../../components/globalstyles/helper";
 import { Wrapper } from "../../components/Wrapper";
 import { Container } from "../../components/Wrapper";
@@ -17,7 +17,7 @@ export const FooterWrapper = styled(Wrapper)`
 export const FooterContain = styled(Container)`
   ${setFlex({ x: "space-between", y: "center", d: "row" })}
 
-  p{
+  p {
     color: ${setColor.mainWhite};
   }
 `;
@@ -27,6 +27,8 @@ export const FooterLogo = styled.div`
   cursor: pointer;
   h2 {
     color: ${setColor.mainWhite};
+    font-weight: 400;
+    ${setFont.main};
   }
 `;
 
