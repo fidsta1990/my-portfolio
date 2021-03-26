@@ -21,7 +21,7 @@ const About = () => {
             <p>
               I’m passionate about all things Front End Web Development. I am an
               extremely well driven individual with a willing approach to devote
-              to tasks set. Ambitions of mine are to progress as a junior web
+              to set tasks. Ambitions of mine are to progress as a junior web
               developer in JavaScript and to evolve into a full stack role.
             </p>
             <p>
