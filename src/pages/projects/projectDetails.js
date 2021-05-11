@@ -1,3 +1,4 @@
+import cryptoVerse from '../../img/crypto-verse.png'
 import bayresort from "../../img/bayresort.png";
 import flicker from "../../img/flicker.png";
 import fitRep from "../../img/fitRep.png";
@@ -6,6 +7,17 @@ import soon from "../../img/soon.png";
 export const portfolio = [
   {
     id: 1,
+    image: `${cryptoVerse}`,
+    langOne: "react",
+    langTwo: "styled-components",
+    langThree: "framer-motion",
+    name: "Crypto-Verse",
+    info: "Cryptocurrency coin tracker app",
+    url: `https://crypto-verse.netlify.app/`,
+    codeUrl: `https://github.com/fidsta1990/crypto-verse`,
+  },
+  {
+    id: 2,
     image: `${bayresort}`,
     langOne: "react",
     langTwo: "styled-components",
@@ -16,7 +28,7 @@ export const portfolio = [
     codeUrl: `https://github.com/fidsta1990/bayresort`,
   },
   {
-    id: 2,
+    id: 3,
     image: `${flicker}`,
     langOne: "react",
     langTwo: "sass",
@@ -27,7 +39,7 @@ export const portfolio = [
     codeUrl: `https://github.com/fidsta1990/flick-scraper`,
   },
   {
-    id: 3,
+    id: 4,
     image: `${fitRep}`,
     langOne: "html",
     langTwo: "sass",
@@ -39,7 +51,7 @@ export const portfolio = [
     codeUrl: `https://github.com/fidsta1990/fit-rep`,
   },
   {
-    id: 4,
+    id: 5,
     image: `${soon}`,
     langOne: "html",
     langTwo: "css",
