@@ -1,3 +1,4 @@
+import spiceBurger from '../../img/spiceBurger.png'
 import cryptoVerse from '../../img/crypto-verse.png'
 import bayresort from "../../img/bayresort.png";
 import flicker from "../../img/flicker.png";
@@ -7,6 +8,17 @@ import soon from "../../img/soon.png";
 export const portfolio = [
   {
     id: 1,
+    image: `${spiceBurger}`,
+    langOne: "react",
+    langTwo: "styled-components",
+    langThree: "aos",
+    name: "Spicy Burger",
+    info: "Burger app with cart function",
+    url: `https://spiceburger.netlify.app/`,
+    codeUrl: `https://github.com/fidsta1990/burgers`,
+  },
+  {
+    id: 2,
     image: `${cryptoVerse}`,
     langOne: "react",
     langTwo: "styled-components",
@@ -17,7 +29,7 @@ export const portfolio = [
     codeUrl: `https://github.com/fidsta1990/crypto-verse`,
   },
   {
-    id: 2,
+    id: 3,
     image: `${bayresort}`,
     langOne: "react",
     langTwo: "styled-components",
@@ -28,7 +40,7 @@ export const portfolio = [
     codeUrl: `https://github.com/fidsta1990/bayresort`,
   },
   {
-    id: 3,
+    id: 4,
     image: `${flicker}`,
     langOne: "react",
     langTwo: "sass",
@@ -39,7 +51,7 @@ export const portfolio = [
     codeUrl: `https://github.com/fidsta1990/flick-scraper`,
   },
   {
-    id: 4,
+    id: 5,
     image: `${fitRep}`,
     langOne: "html",
     langTwo: "sass",
@@ -51,7 +63,7 @@ export const portfolio = [
     codeUrl: `https://github.com/fidsta1990/fit-rep`,
   },
   {
-    id: 5,
+    id: 6,
     image: `${soon}`,
     langOne: "html",
     langTwo: "css",
